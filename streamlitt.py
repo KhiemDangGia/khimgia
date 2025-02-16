@@ -1,4 +1,6 @@
 import streamlit as st
+
+uploaded_file = st.file_uploader("a.txt", type=["txt"])
 import cv2
 import numpy as np
 from PIL import Image
